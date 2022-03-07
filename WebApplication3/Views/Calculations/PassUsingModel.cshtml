@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "PassUsingModel";
+}
+
+<div class="text-left">
+    <h1 style="font-size:35px; color:#333333">Pass Using Model</h1>
+</div>
+
+    <p class="font-weight-bold m-0">Rand Value First : @Model.FirstNumber</p>
+    <p class="font-weight-bold m-0">Rand Value Second : @Model.SecondNumber</p>
+    <p class="font-weight-bold m-0">Add :</p>
+    <p class="m-0">@Model.FirstNumber + @Model.SecondNumber = @Model.Sum  </p>
+    <p class="font-weight-bold m-0">Sub :</p>
+    <p class="m-0">@Model.FirstNumber - @Model.SecondNumber = @Model.Difference   </p>
+    <p class="font-weight-bold m-0">Mult :</p>
+    <p class="m-0">@Model.FirstNumber * @Model.SecondNumber = @Model.Product   </p>
+    <p class="font-weight-bold m-0">Div :</p>
+    <p class="m-0">@Model.FirstNumber / @Model.SecondNumber = @Model.Quotient   </p>

@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "PassUsingViewData";
+}
+
+<div class="text-left">
+    <h1 style="font-size:35px; color:#333333">Pass Using View Data</h1>
+</div>
+
+<p class="font-weight-bold m-0">Rand Value First : @ViewData["FirstNumber"]</p>
+<p class="font-weight-bold m-0">Rand Value Second : @ViewData["SecondNumber"]</p>
+<p class="font-weight-bold m-0">Add :</p>
+<p class="m-0">@ViewData["FirstNumber"] + @ViewData["SecondNumber"] = @ViewData["Sum"]  </p>
+<p class="font-weight-bold m-0">Sub :</p>
+<p class="m-0">@ViewData["FirstNumber"] - @ViewData["SecondNumber"] = @ViewData["Difference"]   </p>
+<p class="font-weight-bold m-0">Mult :</p>
+<p class="m-0">@ViewData["FirstNumber"] * @ViewData["SecondNumber"] = @ViewData["Product"]   </p>
+<p class="font-weight-bold m-0">Div :</p>
+<p class="m-0">@ViewData["FirstNumber"] / @ViewData["SecondNumber"] = @ViewData["Quotient"]   </p>

@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "AcessServiceDirectly";
+}
+@using WebApplication3.Services
+@inject Realization service
+
+<div class="text-left">
+    <h1 style="font-size:35px; color:#333333">Acess Service Directly</h1>
+</div>
+
+<p class="font-weight-bold m-0">Rand Value First : @service.Number1</p>
+<p class="font-weight-bold m-0">Rand Value Second : @service.Number2</p>
+<p class="font-weight-bold m-0">Add :</p>
+<p class="m-0">@service.Add()  </p>
+<p class="font-weight-bold m-0">Sub :</p>
+<p class="m-0">@service.Subtract()   </p>
+<p class="font-weight-bold m-0">Mult :</p>
+<p class="m-0">@service.Multiply()   </p>
+<p class="font-weight-bold m-0">Div :</p>
+<p class="m-0">@service.Divide()   </p>
